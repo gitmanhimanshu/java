@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    *    {
+            box-sizing: border-box;
+    }
+    input[type=text] , select, textarea  {
+        width:100%;
+        padding: 10px;
+        margin-top: 0.5cm;
+        margin-bottom: 1cm;
+        resize:none;
+    } 
+    input[type=submit] 
+    {
+        background-color: coral;
+        color: aliceblue;
+        border:black;
+        padding: 2pt;
+        cursor: pointer;
+    }
+    .column{
+        float:left;
+        width: 50%;
+        margin: 0.5cm;
+    }
+    .row::after{
+        content:"";
+        display: table;
+        clear:both;
+    }
+</style>
+</head>
+<body>
+    
+</body>
+</html>

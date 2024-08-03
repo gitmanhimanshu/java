@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class hima{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number");
+        int a=sc.nextInt();
+        System.out.println("enter the base of number to be change");
+   int n=sc.nextInt();
+   int i=1,bn=0,r;
+   while(n>0){
+    r=a%n;
+    a=a/n;
+    bn=bn+(i*r);
+    i*=10;
+
+   }
+System.out.println("num="+bn);
+    }
+}
